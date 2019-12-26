@@ -18,11 +18,11 @@ return {
     
     -- Editing these also edits the default program
     -- associated with each tag/workspace
-    browser = 'vivaldi-stable',
-    editor = 'gedit', -- gui text editor
+    browser = 'firefox',
+    editor = 'kate', -- gui text editor
     social = 'discord',
     game = rofi_command,
-    files = 'nautilus -w',
+    files = 'dolphin',
     music = rofi_command
   },
   -- List of apps to start once on start-up
@@ -38,7 +38,6 @@ return {
     --KDE '/usr/lib/x86_64-linux-gnu/libexec/polkit-kde-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     -- MATE'/usr/lib/mate-polkit/polkit-mate-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
      'flameshot',
-     'synology-drive -minimized',
      'steam -silent',
      'discord',
     -- Add applications that need to be killed between reloads
