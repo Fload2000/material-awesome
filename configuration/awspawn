@@ -8,8 +8,8 @@
 
 # List of applications to run
 APPS=(
-    keepassxc
-    kdeconnect-indicator
+    #keepassxc
+    #kdeconnect-indicator
     #radeon-profile
     #$(ls $HOME/.appimage/Nextcloud*)
     )
