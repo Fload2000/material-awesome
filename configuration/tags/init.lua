@@ -5,6 +5,12 @@ local apps = require('configuration.apps')
 
 local tags = {
   {
+    icon = icons.thunderbird,
+    type = 'mail',
+    defaultApp = apps.default.mail,
+    screen = 1
+  },
+  {
     icon = icons.firefox,
     type = 'firefox',
     defaultApp = apps.default.browser,

@@ -4,6 +4,7 @@ return {
   --tags
   firefox = dir .. '/firefox.svg',
   terminal = dir .. '/terminal.svg',
+  thunderbird = dir .. '/thunderbird.svg',
   chrome = dir .. '/google-chrome.svg',
   code = dir .. '/code-braces.svg',
   social = dir .. '/forum.svg',
