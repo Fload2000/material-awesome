@@ -22,6 +22,7 @@ return {
     mail = 'thunderbird',
     editor = 'kate', -- gui text editor
     social = 'discord',
+    twitter = 'vivaldi',
     game = rofi_command,
     files = 'dolphin',
     music = rofi_command
@@ -42,6 +43,7 @@ return {
      'steam -silent',
      'discord',
      'thunderbird',
+     'vivaldi',
     -- Add applications that need to be killed between reloads
     -- to avoid multipled instances, inside the awspawn script
     --'~/.config/awesome/configuration/awspawn' -- Spawn "dirty" apps that can linger between sessions

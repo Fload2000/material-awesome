@@ -41,6 +41,12 @@ local tags = {
     screen = 1
   },
   {
+    icon = icons.twitter,
+    type = 'twitter',
+    defaultApp = apps.default.twitter,
+    screen = 1
+  },
+  {
     icon = icons.game,
     type = 'game',
     defaultApp = apps.default.game,

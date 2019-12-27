@@ -1,0 +1,13 @@
+- Remove top panel
+- Edit clock widget (show millisec and make bigger and show clocktime above date)
+- add network speed widget
+- move clock widget to right bottom inner corner over wallpaper
+- add weather widget
+- move change button to bottom
+- move rofi button to right hand side
+- center workspace icons on the left side and just show them on mouse hover or switching
+- move tray icons to change button on the right bottom corner growing to the left side
+- add buttons for end work session to the left bottom corner
+- change colors of panels
+- add multiple monitor support
+- overwork some shotcuts
