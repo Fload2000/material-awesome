@@ -29,7 +29,7 @@ return {
   -- List of apps to start once on start-up
   run_on_start_up = {
     'picom --config ' .. filesystem.get_configuration_dir() .. '/configuration/compton.conf',
-    'nm-applet --indicator', -- wifi
+    'nm-applet', -- wifi
     --'blueberry-tray', -- Bluetooth tray icon
     'xfce4-power-manager', -- Power manager
     'ibus-daemon --xim', -- Ibus daemon for keyboard
